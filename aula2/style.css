@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: lightblue; 
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: #000c78; 
+}
+
+form {
+    background-color: #6e9add; 
+    border-radius: 8px; 
+    padding: 70px;
+    display: inline-block;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="number"], select {
+    width: 100%; 
+    padding: 10px; 
+    margin: 20px 0 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #031097; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin: 5px 10px; 
+}
+
+a {
+    color: #007bff; 
+}
