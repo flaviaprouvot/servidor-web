@@ -14,7 +14,9 @@ $produtos = array(
 foreach ($produtos as $produto => $valor) {
 echo "$produto: <br>"; 
 foreach ($valor as $item) {
-    echo "Nome: {$item['Nome']} / Preço: {$item['Preço']} / Estoque: {$item['Estoque']} <br>";
+    echo "Nome: {$item['Nome']} <br>"; 
+    echo "Preço: {$item['Preço']} <br>";
+    echo "Estoque: {$item['Estoque']} <br><br>";
 }
 echo "<br>";
 }
