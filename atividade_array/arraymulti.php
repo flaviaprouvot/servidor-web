@@ -26,7 +26,7 @@ echo "Valor total dos produtos em estoque: R$ " . ($total);
 
 echo "<br><br><br>";
 echo "Tabela de Alunos e Notas:";
-echo "<br>";
+echo "<br><br>";
 
 $alunos = array(
     array('Nome' => 'Angela', 'Matematica' => 9, 'Portugues' => 10),
