@@ -28,7 +28,7 @@ $produto = array("Nome" => $nome,"Preço" => $preco,"Estoque" => $estoque);
 foreach ($produto as $produto1 => $valor) {
 echo "$produto1: $valor <br>";
 }
-$produto = array("Abacaxi" => 15, "Preço" => 15, "Estoque" => 35);
+$produto = array("Nome" => "Abacaxi", "Preço" => 15, "Estoque" => 35);
 print_r($produto) . "<br>";
 
 // Valor
@@ -49,7 +49,7 @@ echo "<br><br>";
 $cores = array("vermelho", "azul", "verde", "amarelo", "preto");
 $cor = array_search("verde", $cores);
 if ($cor !== false) {
-    echo "O valor 'verde' foi encontrado na posição: " . $cor;
+    echo "O valor 'verde' foi encontrado na posição " . $cor;
 } else {
     echo "Valor não encontrado.";
 }
