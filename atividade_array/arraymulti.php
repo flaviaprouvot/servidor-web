@@ -49,3 +49,5 @@ foreach ($alunos as $aluno) {
     echo "Média: {$media} <br><br>";
 }  
 ?>
+
+
