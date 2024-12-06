@@ -9,7 +9,7 @@
         $login = $_POST['login'];
         $senha = $_POST['senha'];
 
-        $sql = "SELECT * FROM funcionario WHERE login = '$login' and senha = '$senha'";
+        $sql = "SELECT * FROM funcionario WHERE email = '$login' and senha = '$senha'";
         $resultado = mysqli_query($conexao, $sql);
 
         //Verifica se há registros 
