@@ -1,16 +1,25 @@
 <?php
     session_start();
-    $loginCerto = 'bruno';
-    $senhaCerto = '123';
 
     //Verifica se veio do Formulário
     if(isset($_POST['login'])){
-        //Verifica se o login esta correto
-        if($loginCerto == $_POST['login'] and $senhaCerto == $_POST['senha']){
-            $_SESSION['login'] = $_POST['login'];
-            $_SESSION['senha'] = $_POST['senha'];
-        }
 
+        //Verifica se o login esta correto
+        include_once('connection.php');
+        $login = $_POST['login'];
+        $senha = $_POST['senha'];
+
+        $sql = "SELECT * FROM funcionario WHERE login = '$login' and senha = '$senha'";
+        $resultado = mysqli_query($conexao, $sql);
+
+        //Verifica se há registros 
+        if (mysqli_num_rows($resultado) > 0){
+            //Converte em array associativo
+            $linha = mysqli_fetch_assoc($resultado);
+            //Grava os dados da sessão
+            $SESSION['login'] = $linha['email'];
+            $SESSION['senha'] = $linha['senha'];
+        }
     }
 
     if(isset($_SESSION['login']) and isset($_SESSION['senha'])){

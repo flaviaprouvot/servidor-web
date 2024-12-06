@@ -1,1 +1,1 @@
-Aula destinada ao estudo da função "include" no PHP juntamente com o HTML
+Aula destinada ao estudo da função "include" no PHP juntamente com o HTML.

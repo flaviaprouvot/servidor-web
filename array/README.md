@@ -1,0 +1,1 @@
+Aula destinada ao estudo dos vetores ou "arrays" no PHP, juntamente com o HTML.
