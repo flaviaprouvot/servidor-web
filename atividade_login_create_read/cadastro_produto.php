@@ -156,6 +156,6 @@ tr:nth-child(even) {
         <?php } ?>
     </table>
 
-    <a href="logout.php" class="logout-button">Logout</a>
+    <a href="logout.php" class="logout-button">Sair</a>
 </body>
 </html>
