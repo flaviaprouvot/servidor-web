@@ -22,7 +22,7 @@ if (!isset($_SESSION['login']) || !isset($_SESSION['senha'])) {
 
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(darkblue,blue,lightblue);
+            background: linear-gradient(darkblue,blue,darkblue);
             display: flex;
             color: #333;
             line-height: 1.6;
@@ -73,7 +73,7 @@ if (!isset($_SESSION['login']) || !isset($_SESSION['senha'])) {
 
         .login-box {
             padding: 40px;
-            background-color: #fff;
+            background-color: white;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
