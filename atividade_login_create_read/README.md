@@ -1,0 +1,1 @@
+## Nessa atividade há um sistema de login, onde é possivel cadastrar novos produtos apenas sendo um admin, o login de administrados é flavia@flavia.com e a senha é 123, divirta-se! O restante dos usuários possui um cadastro comum.
